@@ -10,9 +10,7 @@ header {
     justify-content: space-between;
 }
 
-#nav_logo {
-
-}
+#nav_logo
 
 #nav_list {
     display: flex;
