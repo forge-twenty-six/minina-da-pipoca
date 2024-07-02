@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    padding: 18px 5%;
+    padding: 2.6vh 5%;
 }
 
 #nav_bar {
@@ -12,6 +12,12 @@ header {
 }
 
 /* #nav_logo */
+.nav_logo a img {
+    max-width: 100%;
+    width: 22vh;
+    object-fit: cover;
+    object-position: bottom;
+}
 
 #nav_list {
     display: flex;
@@ -23,7 +29,7 @@ header {
     text-decoration: none;
     color: #BD2B58;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 2.4vh;
 }
 
 .nav_item a:hover {
