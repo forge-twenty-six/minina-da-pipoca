@@ -1,0 +1,49 @@
+#home {
+    display: flex;
+    min-height: calc(100vh - 88px);
+    position: relative;
+}
+
+#cta {
+    padding: 8% 11%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 1%;
+    z-index: 2;
+}
+
+#cta .title {
+    font-size: 370%;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+#cta .description {
+    font-size: 125%;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 40%;
+    z-index: 2;
+}
+
+#banner img {
+    width: 190%;
+    height: fit-content;
+}
+
+.shape {
+    background-color: #DF6D8C;
+    width: 73%;
+    height: 100%;
+    position: absolute;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 268.5px;
+    z-index: 1;
+}
