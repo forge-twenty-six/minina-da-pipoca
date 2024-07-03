@@ -26,7 +26,10 @@
 
 .custumer img{
     width: 45%;
-    box-shadow: 50px 5px 0px 25px black;
+    background-color: #8EE5E3;
+    box-shadow: -15px 10px 0 10px #8EE5E3;
+    border-radius: 63px;
+    border-bottom-left-radius: 0;
 }
 
 .about-custumer{
