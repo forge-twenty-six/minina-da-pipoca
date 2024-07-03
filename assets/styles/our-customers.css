@@ -1,0 +1,41 @@
+#our-customers{
+    height: 100%;
+    border: 1px solid black;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-title{
+    margin-bottom: 5%;
+}
+
+.container-custumer {
+    display: flex;
+    flex-direction: row;
+}
+
+.custumer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.custumer img{
+    width: 45%;
+    box-shadow: 50px 5px 0px 25px black;
+}
+
+.about-custumer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.custumer-report{
+    font-size: 0.9rem;
+    text-align: center;
+}
