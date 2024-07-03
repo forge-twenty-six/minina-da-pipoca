@@ -1,0 +1,42 @@
+#products {
+    height: 100%;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#about-products {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 2;
+}
+
+#popcorn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    z-index: 2;
+}
+
+#popcorn img {
+    width: 100%;
+}
+
+.shape-products {
+    background-color: #C775C9;
+    width: 92%;
+    height: 31%;
+    position: absolute;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    z-index: 1;
+
+    top: 50%;
+    left: 0;
+}

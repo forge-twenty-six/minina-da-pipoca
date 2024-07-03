@@ -1,0 +1,35 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*========== Colors ==========*/
+
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9F2ED;
+}
+
+main {
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #BD2B58;
+    font-weight: 600;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: black;
+    font-weight: 400;
+}

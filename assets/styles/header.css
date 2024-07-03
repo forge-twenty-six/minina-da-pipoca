@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    height: 10vh;
+    padding: 0 5%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F2ED;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+#nav_bar {
+    width: 100%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* #nav_logo */
+.nav_logo a img {
+    max-width: 100%;
+    width: 22vh;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 75px;
+}
+
+.nav_item a {
+    text-decoration: none;
+    color: #BD2B58;
+    font-weight: 700;
+    font-size: 2.4vh;
+}
+
+.active-session {
+    color: #BD2B58;
+    border-bottom: 2px solid #D482D6;
+}
