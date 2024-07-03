@@ -1,5 +1,6 @@
 #home {
     height: 100%;
+    top: 10vh;
     display: flex;
     min-height: calc(100vh - 88px);
     position: relative;
@@ -7,6 +8,7 @@
 
 #cta {
     width: 45%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,7 +46,7 @@
 .shape {
     background-color: #DF6D8C;
     width: 76%;
-    height: 100%;
+    height: 80%;
     position: absolute;
     border-top-right-radius: 70px;
     border-bottom-right-radius: 268.5px;

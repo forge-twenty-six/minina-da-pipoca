@@ -1,7 +1,17 @@
 header {
     width: 100%;
-    padding: 2.6vh 5%;
+    height: 10vh;
+    padding: 0 5%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F2ED;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
+
 
 #nav_bar {
     width: 100%;
@@ -32,7 +42,7 @@ header {
     font-size: 2.4vh;
 }
 
-.nav_item a:hover {
+.active-session {
     color: #BD2B58;
     border-bottom: 2px solid #D482D6;
 }

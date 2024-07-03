@@ -1,7 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-  /*========== Colors ==========*/
+/*========== Colors ==========*/
 
 * {
     font-family: "Raleway", sans-serif;
@@ -14,14 +14,22 @@ body {
     background-color: #F9F2ED;
 }
 
+main {
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 .section-title {
     font-size: 2rem;
     color: #BD2B58;
     font-weight: 600;
-  }
+}
 
-  .section-description {
+.section-description {
     font-size: 1rem;
     color: black;
     font-weight: 400;
-  }
+}
