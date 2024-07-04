@@ -19,14 +19,14 @@
 
 #cta .title {
     font-size: 3.7rem;
-    color: #ffffff;
+    color: #FFFFFF;
     font-weight: 600;
 }
 
 #cta .description {
     width: 120%;
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #FFFFFF;
     font-weight: 300;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .shape {
-    background-color: #df6d8c;
+    background-color: #DF6D8C;
     width: 76%;
     height: 80%;
     position: absolute;

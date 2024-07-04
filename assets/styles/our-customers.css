@@ -1,4 +1,4 @@
-#our-customers {
+#our-customers{
     height: 100%;
     padding: 6%;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.section-title {
+.section-title{
     margin-bottom: 5%;
 }
 
@@ -15,28 +15,29 @@
     flex-direction: row;
 }
 
-.custumer {
+.custumer{
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 20px;
+
 }
 
-.custumer img {
+.custumer img{
     width: 45%;
-    background-color: #8ee5e3;
-    box-shadow: -15px 10px 0 10px #8ee5e3;
+    background-color: #8EE5E3;
+    box-shadow: -15px 10px 0 10px #8EE5E3;
     border-radius: 63px;
     border-bottom-left-radius: 0;
 }
 
-.about-custumer {
+.about-custumer{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.custumer-report {
+.custumer-report{
     font-size: 0.9rem;
     text-align: center;
 }
