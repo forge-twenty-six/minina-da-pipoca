@@ -6,12 +6,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #F9F2ED;
+    background-color: #f9f2ed;
     top: 0;
     left: 0;
     z-index: 100;
 }
-
 
 #nav_bar {
     width: 100%;
@@ -37,12 +36,12 @@ header {
 
 .nav_item a {
     text-decoration: none;
-    color: #BD2B58;
+    color: #bd2b58;
     font-weight: 700;
     font-size: 2.4vh;
 }
 
 .active-session {
-    color: #BD2B58;
-    border-bottom: 2px solid #D482D6;
+    color: #bd2b58;
+    border-bottom: 2px solid #d482d6;
 }
