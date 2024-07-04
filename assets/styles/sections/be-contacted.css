@@ -1,4 +1,4 @@
-#contact {
+#be-contacted {
     height: 100%;
     display: flex;
     padding: 6%;
@@ -8,7 +8,7 @@
     gap: 18vh;
 }
 
-#contact .banner {
+#be-contacted .banner {
     background-color: #df6d8c;
     display: flex;
     justify-content: center;
@@ -18,11 +18,11 @@
     border-radius: 7vh 7vh 10vh 0;
 }
 
-#contact .banner img {
+#be-contacted .banner img {
     height: 90%;
 }
 
-#contact .left-area {
+#be-contacted .left-area {
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -30,7 +30,7 @@
     width: 28%;
 }
 
-#contact .left-area .text-area {
+#be-contacted .left-area .text-area {
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -38,7 +38,7 @@
     width: 100%;
 }
 
-#contact .left-area .contact-form {
+#be-contacted .left-area .contact-form {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -47,40 +47,40 @@
     gap: 2.2vh;
 }
 
-#contact .left-area .contact-form .input-area {
+#be-contacted .left-area .contact-form .input-area {
     display: flex;
     flex-direction: column;
     gap: 1.4vh;
     width: 100%;
 }
 
-#contact .left-area .contact-form .input-area .input-name {
+#be-contacted .left-area .contact-form .input-area .input-name {
     display: flex;
     flex-direction: column;
     height: 7.2vh;
     gap: 0.2vh;
 }
 
-#contact .left-area .contact-form .input-area .input-name input {
+#be-contacted .left-area .contact-form .input-area .input-name input {
     border: 2px solid;
     border-radius: 0.8vh;
     height: 100%;
 }
 
-#contact .left-area .contact-form .input-area .input-email {
+#be-contacted .left-area .contact-form .input-area .input-email {
     display: flex;
     flex-direction: column;
     height: 7.2vh;
     gap: 0.2vh;
 }
 
-#contact .left-area .contact-form .input-area .input-email input {
+#be-contacted .left-area .contact-form .input-area .input-email input {
     border: 2px solid;
     border-radius: 0.8vh;
     height: 100%;
 }
 
-#contact .left-area .contact-form button {
+#be-contacted .left-area .contact-form button {
     width: 24%;
     height: 3.8vh;
     border-radius: 2vh;
@@ -102,10 +102,10 @@
     font-weight: 700;
 }
 
-#contact .left-area .contact-form button:hover {
+#be-contacted .left-area .contact-form button:hover {
     background-color: #c95376;
 }
 
-#contact .left-area .contact-form button:active {
+#be-contacted .left-area .contact-form button:active {
     border: 1px solid #bd2b58;
 }
