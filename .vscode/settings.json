@@ -5,13 +5,13 @@
   "html-css-class-completion.CSSLanguages": ["css", "sass", "scss"],
   "html-css-class-completion.enableEmmetSupport": false,
   "editor.rulers": [90],
-  "[hmtl]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
