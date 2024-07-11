@@ -1,13 +1,13 @@
 {
-    "css.autoValidation": "Always",
-    "css.styleSheets": ["assets/styles/**/*.css"],
-    "html-css-class-completion.CSSLanguages": ["css", "sass", "scss"],
-    "html-css-class-completion.enableEmmetSupport": false,
-    "editor.rulers": [90],
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.codeActionsOnSave": {
-        "source.fixAll": "always",
-        "source.organizeImports": "always"
-    }
+  "css.autoValidation": "Always",
+  "css.styleSheets": ["assets/styles/**/*.css"],
+  "html-css-class-completion.CSSLanguages": ["css", "sass", "scss"],
+  "html-css-class-completion.enableEmmetSupport": false,
+  "editor.rulers": [90],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  }
 }
