@@ -1,0 +1,20 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+  // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+  // List of extensions which should be recommended for users of this workspace.
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "pranaygp.vscode-css-peek",
+    "ecmel.vscode-html-css",
+    "zignd.html-css-class-completion",
+    "ms-vsliveshare.vsliveshare",
+    "ritwickdey.liveserver"
+  ],
+  // List of extensions recommended by VSCodium that should not be recommended for users of this workspace.
+  "unwantedRecommendations": ["ms-vscode.live-server"]
+}
